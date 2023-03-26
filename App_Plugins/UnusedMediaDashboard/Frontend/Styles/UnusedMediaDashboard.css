@@ -1,0 +1,18 @@
+table {
+	margin-top: 20px;
+	width: 100%;
+}
+
+th {
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+td {
+	max-width: 400px;
+	padding: 4px 20px 4px 20px;
+}
+
+#download-report {
+	margin-top: 16px;
+}

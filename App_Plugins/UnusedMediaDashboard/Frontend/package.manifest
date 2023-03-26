@@ -1,0 +1,20 @@
+{
+    "dashboards":  [
+      {
+        "alias": "UnusedMediaDashboard",
+        "view": "~/App_Plugins/UnusedMediaDashboard/Frontend/Views/UnusedMediaDashboard.html",
+        "sections": [ "Media" ],
+        "weight": 20,
+        "access": [
+          { "grant": "admin" }
+        ]
+      }
+    ],
+	javascript: [
+		"~/App_Plugins/UnusedMediaDashboard/Frontend/Controllers/UnusedMediaDashboard.controller.js",
+		"~/App_Plugins/UnusedMediaDashboard/Frontend/Resources/UnusedMediaDashboard.resource.js"
+	],
+	"css": [
+		"~/App_Plugins/UnusedMediaDashboard/Frontend/Styles/UnusedMediaDashboard.css"
+	]
+}
